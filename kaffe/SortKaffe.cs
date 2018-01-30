@@ -22,7 +22,10 @@ namespace kaffe
             int prismedrabat = 20 - Rabat;
 
             if (prismedrabat <= 0)
+            {
                 throw new ArgumentException("Uppss du gav for meget rabat");
+            }
+
 
             return prismedrabat;
         }

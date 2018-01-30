@@ -20,6 +20,7 @@ namespace kaffe.Tests
 
             //Act
             int pris = sortKaffe.Pris();
+
         }
 
         [TestMethod()]
