@@ -42,9 +42,11 @@ namespace kaffe.Tests
 
             var cortado = new Cortado();
             var latte = new Latte();
+            var flatwhite = new FlatWhite();
             var sortKaffe = new SortKaffe();
             kaffeListe.Add(cortado);
             kaffeListe.Add(latte);
+            kaffeListe.Add(flatwhite);
             //           kaffeListe.Add(sortKaffe);
 
 
@@ -61,7 +63,7 @@ namespace kaffe.Tests
             }
 
             //Assert
-            Assert.AreEqual(145, total);
+            Assert.AreEqual(310, total);
         }
 
     }
